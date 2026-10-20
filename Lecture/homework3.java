@@ -18,7 +18,6 @@ Process:
 Output:
 ticketPrice
 */
-package Lecture;
 import java.util.Scanner;
 public class homework3 {
  public static void main(String[] args) {
@@ -44,5 +43,6 @@ public class homework3 {
    }
      System.out.println(ticketPrice);
   }
+  sc.close();
  }
 }
