@@ -19,8 +19,8 @@ public class homework4 {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Enter two numbers: ");
-        double num1 = sc.nextInt();
-        double num2 = sc.nextInt();
+        double num1 = sc.nextDouble();
+        double num2 = sc.nextDouble();
 
         System.out.print("Enter the operand: ");
         char operand = sc.next().charAt(0);
@@ -48,7 +48,7 @@ public class homework4 {
             break;
             
             default:
-            System.out.print("Invalid operand");
+            System.out.print("Invalid operator");
         
     }
         sc.close();
